@@ -264,27 +264,14 @@ class DataCleaning:
         return df_clean
     
     def clean_activity(self, df):
-        df.columns = df.columns.str.strip().str.lower()
-        df = df.copy()
+    # Normalize region
+        df["region"] = df["region"].astype(str).str.strip().str.lower()
 
-    # -------- NUMERIC COLUMNS --------
-        df["irrigationhours"] = df["irrigationhours"].fillna(0)
-        df["fertilizer_amount"] = df["fertilizer_amount"].fillna(
-        df["fertilizer_amount"].median()
-    )
-       
+    # Drop unknown regions
+        df = df[df["region"] != "unknown"]
 
-    # -------- CATEGORICAL COLUMNS --------
-        df["region"] = df["region"].fillna("UNKNOWN")
-        df["croptype"] = df["croptype"].fillna("UNKNOWN")
-
-    # -------- DATE COLUMN --------
-        df["activitydate"] = pd.to_datetime(
-        df["activitydate"], errors="coerce"
-    )
-
-    # Drop rows where date is invalid
-        df = df.dropna(subset=["activitydate"])
+    # Fill missing irrigation hours
+        df["irrigationHours"] = df["irrigationHours"].fillna(0)
 
         return df
 
@@ -300,6 +287,16 @@ class DataCleaning:
         
         # Remove duplicates
         df_clean = df_clean.drop_duplicates()
+        
+        
+    # Normalize column names
+        df.columns = df.columns.str.strip().str.lower()
+
+    # Drop duplicate unit records
+        df = df.drop_duplicates()
+
+    
+        
         
         # Standardize unit names
         text_cols = df_clean.select_dtypes(include=['object']).columns
