@@ -1,0 +1,167 @@
+{
+  "pipeline_run": "2026-02-07T14:28:31.856904",
+  "ingestion_metadata": {
+    "raw_data/weather.csv": {
+      "filename": "raw_data/weather.csv",
+      "description": "Weather measurements from stations",
+      "timestamp": "2026-02-07T14:28:29.308174",
+      "rows": 50000,
+      "columns": 6,
+      "file_hash": "48bb69b0df24efe24ddce00c03ba1285",
+      "column_names": [
+        "StationID",
+        "observationDate",
+        "rainfall",
+        "rain_unit",
+        "temperature",
+        "temperature_unit"
+      ],
+      "dtypes": {
+        "StationID": "object",
+        "observationDate": "object",
+        "rainfall": "float64",
+        "rain_unit": "object",
+        "temperature": "object",
+        "temperature_unit": "object"
+      },
+      "missing_pct": 4.963
+    },
+    "raw_data/station_region.csv": {
+      "filename": "raw_data/station_region.csv",
+      "description": "Station location and region mapping",
+      "timestamp": "2026-02-07T14:28:29.379195",
+      "rows": 800,
+      "columns": 3,
+      "file_hash": "5813f2ba155e48deaf0de359807d8e3e",
+      "column_names": [
+        "stationCode",
+        "Region",
+        "region_type"
+      ],
+      "dtypes": {
+        "stationCode": "object",
+        "Region": "object",
+        "region_type": "object"
+      },
+      "missing_pct": 0.0
+    },
+    "raw_data/activity_logs.csv": {
+      "filename": "raw_data/activity_logs.csv",
+      "description": "Activity logs from monitoring",
+      "timestamp": "2026-02-07T14:28:29.490218",
+      "rows": 30000,
+      "columns": 5,
+      "file_hash": "fe8980abcacafe7ff6f02d7a15c784d7",
+      "column_names": [
+        "region",
+        "activityDate",
+        "cropType",
+        "irrigationHours",
+        "fertilizer_amount"
+      ],
+      "dtypes": {
+        "region": "object",
+        "activityDate": "object",
+        "cropType": "object",
+        "irrigationHours": "float64",
+        "fertilizer_amount": "float64"
+      },
+      "missing_pct": 5.01
+    },
+    "raw_data/reference_units.csv": {
+      "filename": "raw_data/reference_units.csv",
+      "description": "Unit conversion references",
+      "timestamp": "2026-02-07T14:28:29.526225",
+      "rows": 4,
+      "columns": 3,
+      "file_hash": "03de49ca893060233ed3acf794234028",
+      "column_names": [
+        "unit",
+        "standard_unit",
+        "conversion_factor"
+      ],
+      "dtypes": {
+        "unit": "object",
+        "standard_unit": "object",
+        "conversion_factor": "float64"
+      },
+      "missing_pct": 16.666666666666664
+    }
+  },
+  "quality_reports": {
+    "weather": [
+      {
+        "stage": "before",
+        "timestamp": "2026-02-07T14:28:29.552817",
+        "rows": 50000,
+        "columns": 6,
+        "missing_cells": 14889,
+        "missing_pct": 4.963,
+        "duplicate_rows": 0,
+        "duplicate_pct": 0.0
+      },
+      {
+        "stage": "after",
+        "timestamp": "2026-02-07T14:28:29.897934",
+        "rows": 25080,
+        "columns": 6,
+        "missing_cells": 5049,
+        "missing_pct": 3.3552631578947367,
+        "duplicate_rows": 0,
+        "duplicate_pct": 0.0
+      }
+    ],
+    "stations": [
+      {
+        "stage": "before",
+        "timestamp": "2026-02-07T14:28:29.983804",
+        "rows": 800,
+        "columns": 3,
+        "missing_cells": 0,
+        "missing_pct": 0.0,
+        "duplicate_rows": 41,
+        "duplicate_pct": 5.125
+      },
+      {
+        "stage": "after",
+        "timestamp": "2026-02-07T14:28:29.996992",
+        "rows": 759,
+        "columns": 3,
+        "missing_cells": 0,
+        "missing_pct": 0.0,
+        "duplicate_rows": 48,
+        "duplicate_pct": 6.324110671936759
+      }
+    ],
+    "units": [
+      {
+        "stage": "before",
+        "timestamp": "2026-02-07T14:28:30.149338",
+        "rows": 4,
+        "columns": 3,
+        "missing_cells": 2,
+        "missing_pct": 16.666666666666664,
+        "duplicate_rows": 0,
+        "duplicate_pct": 0.0
+      },
+      {
+        "stage": "after",
+        "timestamp": "2026-02-07T14:28:30.157599",
+        "rows": 4,
+        "columns": 3,
+        "missing_cells": 1,
+        "missing_pct": 8.333333333333332,
+        "duplicate_rows": 0,
+        "duplicate_pct": 0.0
+      }
+    ]
+  },
+  "merge_lineage": [],
+  "feature_catalog": {
+    "temp_category": "Temperature bucket: Cold/Cool/Warm/Hot",
+    "is_hot": "True if temperature > 25C",
+    "is_cold": "True if temperature < 5C",
+    "temp_rolling_avg_3": "3-point rolling average of temperature",
+    "temp_category_code": "Encoded numerical form of temperature category"
+  }
+}

@@ -1,0 +1,801 @@
+stationCode,Region,region_type
+S229,unknown, agro 
+S003,SOUTH,Climatic
+S074, north, agro 
+S422,South ,Climatic
+S368,west, agro 
+S432,unknown, agro 
+S387,SOUTH,Agro
+S188,EAST,Climatic
+S054,EAST, agro 
+S229,South ,Climatic
+S315,unknown,Agro
+S303,unknown,Agro
+S449,SOUTH,Agro
+S248,South , agro 
+S423,EAST,Climatic
+S137,SOUTH,Agro
+S421,SOUTH,Agro
+S297,unknown,Agro
+S019,SOUTH,Climatic
+S319,South , agro 
+S011,SOUTH,Climatic
+S313,South , agro 
+S445,SOUTH, agro 
+S146,west, agro 
+S247,unknown,Climatic
+S387,SOUTH, agro 
+S350,west,Agro
+S395,South , agro 
+S024,South , agro 
+S411,South , agro 
+S058,EAST,Agro
+S355,SOUTH,Agro
+S256,EAST,Climatic
+S116,EAST, agro 
+S430, north,Agro
+S054, north,Agro
+S446,South ,Climatic
+S175,west,Agro
+S281,EAST,Agro
+S131,North,Agro
+S016,South ,Climatic
+S095,South , agro 
+S206, north,Climatic
+S296,EAST,Agro
+S314,unknown,Climatic
+S247, north,Climatic
+S003,EAST,Agro
+S197,North, agro 
+S336, north,Agro
+S126,South , agro 
+S247,North, agro 
+S359,SOUTH, agro 
+S244,west,Climatic
+S144, north, agro 
+S269,SOUTH, agro 
+S241,South ,Agro
+S393, north, agro 
+S331,South , agro 
+S027,EAST,Agro
+S196,South ,Agro
+S403,west,Agro
+S054,EAST,Agro
+S445,west,Agro
+S158,North, agro 
+S242,North, agro 
+S367,South , agro 
+S374,North, agro 
+S124,west,Agro
+S159,South , agro 
+S071, north,Climatic
+S019, north,Agro
+S438,North,Climatic
+S114,west,Climatic
+S101,unknown,Climatic
+S397,unknown,Climatic
+S303,EAST,Climatic
+S255,EAST,Agro
+S394,North, agro 
+S090,unknown,Agro
+S059,SOUTH,Agro
+S082,west,Climatic
+S163,unknown,Agro
+S220,west, agro 
+S153,South , agro 
+S262,SOUTH, agro 
+S070,South ,Agro
+S166,EAST,Agro
+S301,South , agro 
+S351,unknown, agro 
+S234,SOUTH,Agro
+S379,North,Agro
+S331, north, agro 
+S286,South ,Agro
+S297,SOUTH, agro 
+S118,EAST,Agro
+S345,North,Climatic
+S175, north,Climatic
+S113,SOUTH,Climatic
+S225,North,Agro
+S361,west,Agro
+S227,unknown,Climatic
+S432,South ,Climatic
+S401,South ,Agro
+S070, north,Climatic
+S221,SOUTH,Agro
+S439,unknown, agro 
+S317,west,Climatic
+S331, north, agro 
+S079, north,Agro
+S075,EAST,Climatic
+S298,SOUTH, agro 
+S320,SOUTH,Climatic
+S314,EAST,Climatic
+S027,North, agro 
+S317,North,Climatic
+S420,SOUTH,Climatic
+S017,SOUTH,Climatic
+S100,South ,Agro
+S242, north,Climatic
+S254,North,Agro
+S442,unknown, agro 
+S152,North,Climatic
+S257,west,Agro
+S365,SOUTH, agro 
+S342,west, agro 
+S132,SOUTH,Agro
+S053,EAST,Climatic
+S368,North,Agro
+S319,EAST, agro 
+S258, north,Climatic
+S149,North,Climatic
+S294,unknown, agro 
+S159,North,Agro
+S124,SOUTH,Agro
+S367,west, agro 
+S387,unknown,Climatic
+S355,EAST,Climatic
+S056,EAST,Agro
+S322,EAST,Agro
+S429,EAST, agro 
+S230,North,Agro
+S297,SOUTH, agro 
+S180, north,Climatic
+S094,North, agro 
+S297,unknown,Climatic
+S293,EAST, agro 
+S321,EAST,Agro
+S026,EAST,Climatic
+S158,South , agro 
+S435,SOUTH, agro 
+S080,South , agro 
+S426,EAST, agro 
+S286,SOUTH, agro 
+S357,SOUTH,Agro
+S074, north,Agro
+S185,SOUTH,Climatic
+S231,SOUTH,Climatic
+S172,SOUTH,Agro
+S031,EAST, agro 
+S340, north, agro 
+S326,unknown, agro 
+S419,South ,Agro
+S045,North,Climatic
+S441,SOUTH, agro 
+S002,SOUTH,Agro
+S327,west, agro 
+S207,west, agro 
+S056,west, agro 
+S050,North,Climatic
+S023,unknown,Agro
+S374,North,Agro
+S278,EAST, agro 
+S228,SOUTH,Climatic
+S136,SOUTH, agro 
+S022,west,Climatic
+S153,unknown, agro 
+S130, north, agro 
+S138,South , agro 
+S255,EAST,Climatic
+S219,SOUTH,Climatic
+S208,South , agro 
+S177,SOUTH,Climatic
+S230,South ,Climatic
+S395,North,Agro
+S065,unknown, agro 
+S361,unknown,Agro
+S414,North,Agro
+S090,North, agro 
+S290,South ,Climatic
+S428, north,Climatic
+S311,South ,Agro
+S403,west, agro 
+S314,west, agro 
+S248,west,Climatic
+S114,west, agro 
+S413,unknown,Agro
+S119,SOUTH, agro 
+S420,South ,Agro
+S246,SOUTH,Climatic
+S155, north,Agro
+S406,EAST, agro 
+S326,SOUTH,Agro
+S088, north, agro 
+S026,South , agro 
+S061,unknown,Agro
+S314,SOUTH, agro 
+S298,EAST, agro 
+S177,unknown, agro 
+S381,North,Agro
+S314,unknown, agro 
+S033,unknown,Climatic
+S063,EAST,Climatic
+S208,west,Agro
+S333,North, agro 
+S103,unknown,Climatic
+S389,unknown, agro 
+S154,west,Agro
+S053,EAST,Climatic
+S411, north,Climatic
+S312,North,Climatic
+S356,SOUTH,Climatic
+S068, north,Climatic
+S346,SOUTH,Agro
+S393,unknown, agro 
+S366,unknown, agro 
+S256,South ,Agro
+S402,South , agro 
+S175,west,Agro
+S117,SOUTH,Agro
+S131, north,Agro
+S289,North,Climatic
+S416,SOUTH,Agro
+S310,unknown,Climatic
+S270,unknown,Climatic
+S368,SOUTH,Agro
+S278,EAST,Agro
+S058,unknown, agro 
+S329,EAST, agro 
+S327,North, agro 
+S433,North,Agro
+S024,unknown, agro 
+S308,unknown,Agro
+S397, north,Agro
+S069,North,Climatic
+S027,SOUTH,Climatic
+S349,SOUTH,Agro
+S127,west,Agro
+S170,North, agro 
+S414,west,Climatic
+S304, north, agro 
+S388,west,Agro
+S113,North,Agro
+S141,unknown,Climatic
+S056,North,Agro
+S077,unknown,Agro
+S399,west, agro 
+S358,west, agro 
+S212,west,Climatic
+S231,North,Agro
+S194,unknown, agro 
+S132,SOUTH, agro 
+S212,North,Agro
+S387,North,Climatic
+S109,South , agro 
+S146,North,Climatic
+S247, north,Agro
+S379,North,Climatic
+S375,SOUTH,Agro
+S239,South ,Climatic
+S256,South ,Agro
+S137, north, agro 
+S242,unknown, agro 
+S373,EAST,Climatic
+S032, north,Agro
+S050,South ,Agro
+S101,unknown,Climatic
+S392,North,Agro
+S344, north,Climatic
+S145,South ,Climatic
+S059,SOUTH,Climatic
+S365,North,Climatic
+S277,South , agro 
+S039,west,Climatic
+S010,SOUTH,Climatic
+S239,South ,Agro
+S328,SOUTH,Climatic
+S024,EAST,Climatic
+S123,west,Climatic
+S033,SOUTH,Climatic
+S353,SOUTH,Agro
+S289,EAST, agro 
+S365,SOUTH,Climatic
+S269,South ,Agro
+S071,SOUTH,Climatic
+S336, north,Climatic
+S019, north, agro 
+S341,South ,Climatic
+S355,EAST,Agro
+S322,west,Climatic
+S055,unknown, agro 
+S377,SOUTH,Agro
+S353,west, agro 
+S319,EAST,Climatic
+S078,South ,Climatic
+S026, north, agro 
+S153,west,Climatic
+S327,unknown,Agro
+S051,unknown,Agro
+S073,west,Climatic
+S361, north, agro 
+S192,SOUTH, agro 
+S253,unknown,Agro
+S016,west,Climatic
+S233,North,Agro
+S426,SOUTH,Agro
+S386,SOUTH,Climatic
+S428,North, agro 
+S339,SOUTH, agro 
+S411,South ,Agro
+S343,west,Agro
+S148,SOUTH,Climatic
+S280,unknown,Climatic
+S105,South ,Agro
+S320, north, agro 
+S388,unknown,Climatic
+S395,SOUTH,Climatic
+S228,unknown, agro 
+S367,South ,Climatic
+S066,west, agro 
+S448,South , agro 
+S186,SOUTH,Agro
+S231,South , agro 
+S065, north,Climatic
+S148,South , agro 
+S299,South , agro 
+S115, north,Agro
+S014,SOUTH, agro 
+S247,EAST,Climatic
+S386,EAST,Climatic
+S310,SOUTH, agro 
+S365,SOUTH,Climatic
+S260,EAST,Agro
+S104,North,Climatic
+S284,west,Agro
+S371,EAST,Climatic
+S212, north,Agro
+S168,unknown, agro 
+S379,South ,Agro
+S197,unknown, agro 
+S397,EAST, agro 
+S204,North, agro 
+S343,west,Climatic
+S075,North, agro 
+S347,North,Agro
+S380,unknown,Climatic
+S022,South ,Climatic
+S406,unknown,Agro
+S273,South ,Agro
+S275,North, agro 
+S305,unknown,Agro
+S117, north, agro 
+S328,South ,Climatic
+S276,unknown,Agro
+S119,EAST, agro 
+S187,North, agro 
+S145,unknown, agro 
+S179,west,Climatic
+S383,SOUTH,Climatic
+S267,South , agro 
+S206,unknown, agro 
+S307,unknown,Agro
+S377,unknown,Agro
+S213,South ,Climatic
+S119, north,Agro
+S412,South ,Climatic
+S235, north,Climatic
+S046,South , agro 
+S008,west,Agro
+S303,unknown,Agro
+S195,North,Climatic
+S051,west, agro 
+S030,unknown, agro 
+S012, north,Climatic
+S108,SOUTH, agro 
+S015,unknown,Agro
+S200,unknown, agro 
+S098,EAST, agro 
+S282,South ,Agro
+S324, north,Agro
+S189,west, agro 
+S292,unknown, agro 
+S103,west,Climatic
+S253, north,Agro
+S287, north,Climatic
+S331,SOUTH,Climatic
+S292, north, agro 
+S079,North,Climatic
+S210, north,Agro
+S447,unknown,Climatic
+S161,west,Agro
+S002,North,Agro
+S407,North,Agro
+S307,South ,Climatic
+S366,EAST,Agro
+S178,west,Climatic
+S265,North,Climatic
+S387,North,Climatic
+S202,South ,Agro
+S249,EAST, agro 
+S202,SOUTH,Agro
+S386,west,Climatic
+S185,South , agro 
+S083,west, agro 
+S344,SOUTH,Climatic
+S035, north, agro 
+S064,North, agro 
+S292,North, agro 
+S401,South ,Agro
+S146, north,Agro
+S352,unknown,Agro
+S259,SOUTH, agro 
+S017,west,Climatic
+S102,SOUTH, agro 
+S447,SOUTH,Agro
+S054,South , agro 
+S353,unknown,Agro
+S009,SOUTH, agro 
+S237,SOUTH, agro 
+S138,unknown,Climatic
+S052,unknown, agro 
+S233,South ,Agro
+S165,unknown,Agro
+S216,EAST, agro 
+S027,SOUTH,Agro
+S342, north,Climatic
+S094, north,Agro
+S047,South ,Agro
+S361,unknown,Climatic
+S438,SOUTH,Climatic
+S125,SOUTH,Agro
+S126,west,Agro
+S291,west, agro 
+S326,North, agro 
+S006,unknown,Agro
+S435,EAST,Climatic
+S362,North, agro 
+S030,SOUTH,Agro
+S380, north, agro 
+S129,west, agro 
+S167,South , agro 
+S040,unknown,Climatic
+S436,EAST, agro 
+S172,North,Climatic
+S077,SOUTH, agro 
+S168,North, agro 
+S416,EAST, agro 
+S312,west, agro 
+S315,South ,Climatic
+S176,EAST,Agro
+S363,SOUTH, agro 
+S017,South ,Agro
+S145,EAST, agro 
+S197,west,Agro
+S088,SOUTH,Agro
+S304, north, agro 
+S119,west,Climatic
+S111,west,Agro
+S032,west,Climatic
+S334,EAST,Agro
+S386,North, agro 
+S373,west,Climatic
+S443,South ,Climatic
+S408,SOUTH, agro 
+S219,west,Climatic
+S047,EAST,Climatic
+S005,west,Agro
+S425,unknown, agro 
+S444,North, agro 
+S066,South ,Climatic
+S337,South ,Climatic
+S175,west,Climatic
+S440,EAST,Agro
+S015,EAST,Climatic
+S091,west,Climatic
+S033,west,Climatic
+S179, north,Climatic
+S064,west,Climatic
+S052,west,Agro
+S056,west, agro 
+S316,unknown,Agro
+S159,North,Agro
+S427,SOUTH,Agro
+S207, north,Agro
+S172,SOUTH,Agro
+S168,North,Climatic
+S099,EAST,Agro
+S076,South , agro 
+S183,SOUTH,Climatic
+S310,North, agro 
+S069, north,Agro
+S426,unknown,Climatic
+S067,SOUTH, agro 
+S333,SOUTH,Agro
+S391,west, agro 
+S147,North,Agro
+S432,west,Climatic
+S323,North, agro 
+S351, north, agro 
+S390,EAST,Climatic
+S434,North,Agro
+S016,unknown,Agro
+S269,west, agro 
+S412,North,Agro
+S016,west,Climatic
+S284,SOUTH, agro 
+S190,west,Agro
+S378,west,Climatic
+S111,North,Climatic
+S147,west, agro 
+S179,EAST, agro 
+S284,west,Climatic
+S011,unknown,Climatic
+S128,unknown,Agro
+S151, north, agro 
+S242,South , agro 
+S177,unknown, agro 
+S077,EAST,Climatic
+S002,SOUTH,Agro
+S292,unknown, agro 
+S184,west,Climatic
+S367,unknown,Climatic
+S041,west,Climatic
+S260,South ,Agro
+S409,SOUTH,Agro
+S438,SOUTH,Climatic
+S351, north, agro 
+S040,unknown,Agro
+S027,EAST,Agro
+S234,west,Climatic
+S340,South ,Agro
+S441,SOUTH,Climatic
+S429, north,Climatic
+S198,North, agro 
+S297,west,Agro
+S003, north,Agro
+S261,North,Agro
+S195,EAST, agro 
+S272,EAST,Agro
+S330,west,Climatic
+S099, north, agro 
+S236,SOUTH,Agro
+S346,SOUTH, agro 
+S363,EAST,Agro
+S304,South ,Agro
+S218,North,Agro
+S391, north,Climatic
+S229,South , agro 
+S214,EAST,Agro
+S059,unknown,Agro
+S344,unknown,Climatic
+S301,North, agro 
+S376,North,Agro
+S011, north,Climatic
+S405,EAST,Agro
+S091,EAST,Agro
+S017,unknown, agro 
+S067,west, agro 
+S059,EAST,Climatic
+S060,unknown,Agro
+S036,unknown,Agro
+S265,unknown, agro 
+S389,SOUTH, agro 
+S311,South ,Agro
+S324, north, agro 
+S058,unknown,Climatic
+S347,EAST,Agro
+S435, north, agro 
+S428,EAST,Agro
+S109,west,Agro
+S348,unknown,Climatic
+S077, north,Climatic
+S231,South ,Agro
+S124,west,Climatic
+S294,South , agro 
+S329,unknown, agro 
+S169,South ,Climatic
+S352, north,Agro
+S278,unknown,Climatic
+S031,South ,Agro
+S070,South , agro 
+S267,South , agro 
+S278,west, agro 
+S082,SOUTH,Agro
+S297,west,Agro
+S142,North,Agro
+S178, north,Agro
+S430,South ,Climatic
+S409,South ,Climatic
+S017,EAST,Climatic
+S372, north,Agro
+S128,North,Climatic
+S006,EAST,Agro
+S008,SOUTH,Agro
+S021,EAST, agro 
+S145,SOUTH,Agro
+S409,North,Climatic
+S102,South , agro 
+S173, north, agro 
+S054,North,Agro
+S166,SOUTH, agro 
+S407,EAST,Agro
+S055,unknown,Agro
+S441,South ,Climatic
+S367,SOUTH, agro 
+S119,EAST, agro 
+S048, north,Climatic
+S044, north,Climatic
+S117,North,Climatic
+S075, north,Agro
+S309,west,Climatic
+S356,North, agro 
+S406,west, agro 
+S445,EAST, agro 
+S139,North,Agro
+S344,EAST,Agro
+S176,EAST,Climatic
+S209,SOUTH,Agro
+S029,unknown,Agro
+S040,North,Agro
+S434, north,Agro
+S187,SOUTH,Climatic
+S294,EAST,Agro
+S291, north, agro 
+S029,SOUTH,Agro
+S179,EAST, agro 
+S358,North, agro 
+S068,west,Climatic
+S350,North, agro 
+S134,west,Agro
+S061,South ,Climatic
+S376,unknown,Agro
+S226,EAST, agro 
+S110,SOUTH, agro 
+S284,unknown,Climatic
+S201,EAST,Agro
+S121,EAST, agro 
+S395, north,Climatic
+S327,SOUTH, agro 
+S025,unknown,Climatic
+S344,unknown, agro 
+S366,South , agro 
+S154,unknown,Agro
+S331,North, agro 
+S320,west, agro 
+S441,west,Agro
+S414,unknown,Climatic
+S150,west,Climatic
+S195,west,Agro
+S325, north, agro 
+S375,South ,Agro
+S031,west,Agro
+S090,west,Climatic
+S446,SOUTH, agro 
+S119,North,Climatic
+S037, north,Agro
+S013, north,Agro
+S183, north,Climatic
+S356,unknown,Agro
+S243,west,Agro
+S336,EAST,Agro
+S421,South ,Climatic
+S270,unknown,Agro
+S271,SOUTH, agro 
+S379,South , agro 
+S318,North, agro 
+S239,North, agro 
+S135,unknown,Agro
+S180,west, agro 
+S389,SOUTH,Agro
+S211,EAST,Agro
+S374,west, agro 
+S045,EAST, agro 
+S230,North,Climatic
+S416,SOUTH,Agro
+S297, north,Agro
+S256,SOUTH,Climatic
+S060,South , agro 
+S309,unknown, agro 
+S011,North,Climatic
+S355,EAST,Agro
+S274,South ,Agro
+S204,EAST,Climatic
+S167, north, agro 
+S316, north,Agro
+S244,unknown,Climatic
+S328,SOUTH,Agro
+S399,South , agro 
+S290,SOUTH,Climatic
+S222,west,Climatic
+S394,SOUTH,Climatic
+S383,South ,Agro
+S318,South , agro 
+S159,west, agro 
+S019,unknown,Agro
+S126,South ,Agro
+S252,SOUTH,Climatic
+S407,west,Agro
+S103,North,Climatic
+S110,west, agro 
+S236, north, agro 
+S392,west,Climatic
+S407, north,Agro
+S308,SOUTH, agro 
+S228,South , agro 
+S274,west, agro 
+S282, north,Agro
+S330,unknown,Agro
+S002,west,Climatic
+S014,EAST, agro 
+S186,EAST, agro 
+S212,North,Agro
+S431,unknown, agro 
+S169,North, agro 
+S362, north,Agro
+S290,South ,Agro
+S311,west, agro 
+S284,EAST,Climatic
+S077,North,Climatic
+S270,North,Climatic
+S105,unknown,Agro
+S328,SOUTH,Climatic
+S321,SOUTH,Climatic
+S386,North,Agro
+S265,North, agro 
+S128,SOUTH,Agro
+S075, north, agro 
+S282,South ,Agro
+S030,North,Agro
+S095,unknown, agro 
+S165, north, agro 
+S197,unknown, agro 
+S435,unknown,Agro
+S373,unknown,Climatic
+S156,SOUTH, agro 
+S110,unknown,Agro
+S089,west,Climatic
+S134, north,Agro
+S109,South , agro 
+S296,EAST,Climatic
+S253,west, agro 
+S026,North,Agro
+S244, north,Climatic
+S070,South ,Climatic
+S256,unknown, agro 
+S380,EAST, agro 
+S223, north,Agro
+S039,west,Climatic
+S413,North, agro 
+S327,North, agro 
+S389,South ,Agro
+S405,west,Agro
+S262, north, agro 
+S170, north,Agro
+S390,South , agro 
+S188,unknown, agro 
+S249,SOUTH,Climatic
+S334,North,Agro
+S223,South ,Agro
+S302,SOUTH,Agro
+S356, north, agro 
+S188,North,Climatic
+S069,North, agro 
+S172,North,Agro
+S294,unknown, agro 
+S386,North,Agro
+S294,EAST,Agro
+S375,SOUTH,Climatic
+S297,SOUTH,Climatic
+S040,unknown,Agro
+S341, north,Agro
+S217, north,Climatic
+S058,SOUTH, agro 
+S432,North,Climatic
+S408,SOUTH, agro 
+S171,North,Agro
+S131,unknown,Climatic
+S109,North,Climatic
+S217,west, agro 
+S072,unknown, agro 
+S258,unknown,Agro
+S273,SOUTH, agro 
+S220,South ,Agro
+S213,EAST, agro 
+S163,South , agro 
+S254,SOUTH, agro 
+S275, north,Agro
+S227,North, agro 
+S396,unknown,Agro
+S196,west,Climatic
+S055,unknown, agro 

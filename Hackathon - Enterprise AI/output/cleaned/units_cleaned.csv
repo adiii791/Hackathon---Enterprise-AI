@@ -1,0 +1,5 @@
+unit,standard_unit,conversion_factor
+mm,mm,1.0
+inch,mm,
+c,c,1.0
+celsius,nan,1.0

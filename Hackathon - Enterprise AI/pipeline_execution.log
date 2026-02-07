@@ -1,0 +1,654 @@
+2026-02-06 13:11:23,536 - INFO - 
+============================================================
+2026-02-06 13:11:23,549 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-06 13:11:23,550 - INFO - ============================================================
+2026-02-06 13:11:23,551 - INFO - ============================================================
+2026-02-06 13:11:23,552 - INFO - STAGE 1: DATA INGESTION
+2026-02-06 13:11:23,553 - INFO - ============================================================
+2026-02-06 13:11:23,553 - INFO - Loading: raw_data/weather.csv
+2026-02-06 13:11:23,621 - ERROR - Missing data files! Place CSV files in 'raw_data/' directory
+2026-02-06 13:11:23,622 - ERROR - 
+PIPELINE FAILED: [Errno 2] No such file or directory: 'raw_data/weather.csv'
+2026-02-06 13:11:23,623 - ERROR - Check pipeline_execution.log for details
+2026-02-06 13:37:38,963 - INFO - 
+============================================================
+2026-02-06 13:37:38,964 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-06 13:37:38,965 - INFO - ============================================================
+2026-02-06 13:37:38,966 - INFO - ============================================================
+2026-02-06 13:37:38,966 - INFO - STAGE 1: DATA INGESTION
+2026-02-06 13:37:38,967 - INFO - ============================================================
+2026-02-06 13:37:38,967 - INFO - Loading: raw_data/weather.csv
+2026-02-06 13:37:39,196 - INFO -   Missing: 4.96%
+2026-02-06 13:37:39,197 - INFO - Loading: raw_data/station_region.csv
+2026-02-06 13:37:39,221 - INFO -   Missing: 0.00%
+2026-02-06 13:37:39,222 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-06 13:37:39,339 - INFO -   Missing: 5.01%
+2026-02-06 13:37:39,340 - INFO - Loading: raw_data/reference_units.csv
+2026-02-06 13:37:39,356 - INFO -   Missing: 16.67%
+2026-02-06 13:37:39,357 - INFO - ============================================================
+2026-02-06 13:37:39,357 - INFO - STAGE 2: DATA CLEANING
+2026-02-06 13:37:39,358 - INFO - ============================================================
+2026-02-06 13:37:39,360 - INFO - 
+Cleaning: Weather Data
+2026-02-06 13:37:39,612 - INFO -   Removed 0 duplicates
+2026-02-06 13:37:39,740 - INFO - 
+Cleaning: Station Region Data
+2026-02-06 13:37:39,772 - INFO - 
+Cleaning: Activity Logs
+2026-02-06 13:37:40,051 - INFO - 
+Cleaning: Reference Units
+2026-02-06 13:37:40,344 - INFO - Saved: output/cleaned/weather_cleaned.csv
+2026-02-06 13:37:40,354 - INFO - Saved: output/cleaned/stations_cleaned.csv
+2026-02-06 13:37:40,686 - INFO - Saved: output/cleaned/activity_cleaned.csv
+2026-02-06 13:37:40,691 - INFO - Saved: output/cleaned/units_cleaned.csv
+2026-02-06 13:37:40,691 - INFO - ============================================================
+2026-02-06 13:37:40,692 - INFO - STAGE 3: DATA MERGING
+2026-02-06 13:37:40,692 - INFO - ============================================================
+2026-02-06 13:37:40,698 - INFO - 
+Base dataset: Weather (25080 records)
+2026-02-06 13:37:40,702 - INFO - 
+Final unified dataset: 25080 rows × 6 columns
+2026-02-06 13:37:40,894 - INFO - Saved: output/unified_dataset.csv
+2026-02-06 13:37:40,895 - INFO - ============================================================
+2026-02-06 13:37:40,896 - INFO - STAGE 4: FEATURE ENGINEERING
+2026-02-06 13:37:40,896 - INFO - ============================================================
+2026-02-06 13:37:40,897 - INFO - 
+Creating V1 Features (Basic)
+2026-02-06 13:37:40,942 - ERROR - 
+PIPELINE FAILED: '<' not supported between instances of 'float' and 'str'
+2026-02-06 13:37:40,943 - ERROR - Check pipeline_execution.log for details
+2026-02-06 13:39:09,543 - INFO - 
+============================================================
+2026-02-06 13:39:09,545 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-06 13:39:09,546 - INFO - ============================================================
+2026-02-06 13:39:09,547 - INFO - ============================================================
+2026-02-06 13:39:09,547 - INFO - STAGE 1: DATA INGESTION
+2026-02-06 13:39:09,548 - INFO - ============================================================
+2026-02-06 13:39:09,549 - INFO - Loading: raw_data/weather.csv
+2026-02-06 13:39:09,785 - INFO -   Missing: 4.96%
+2026-02-06 13:39:09,787 - INFO - Loading: raw_data/station_region.csv
+2026-02-06 13:39:09,807 - INFO -   Missing: 0.00%
+2026-02-06 13:39:09,807 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-06 13:39:09,898 - INFO -   Missing: 5.01%
+2026-02-06 13:39:09,898 - INFO - Loading: raw_data/reference_units.csv
+2026-02-06 13:39:09,927 - INFO -   Missing: 16.67%
+2026-02-06 13:39:09,929 - INFO - ============================================================
+2026-02-06 13:39:09,930 - INFO - STAGE 2: DATA CLEANING
+2026-02-06 13:39:09,931 - INFO - ============================================================
+2026-02-06 13:39:09,932 - INFO - 
+Cleaning: Weather Data
+2026-02-06 13:39:10,177 - INFO -   Removed 0 duplicates
+2026-02-06 13:39:10,290 - INFO - 
+Cleaning: Station Region Data
+2026-02-06 13:39:10,331 - INFO - 
+Cleaning: Activity Logs
+2026-02-06 13:39:10,569 - INFO - 
+Cleaning: Reference Units
+2026-02-06 13:39:10,819 - INFO - Saved: output/cleaned/weather_cleaned.csv
+2026-02-06 13:39:10,824 - INFO - Saved: output/cleaned/stations_cleaned.csv
+2026-02-06 13:39:11,063 - INFO - Saved: output/cleaned/activity_cleaned.csv
+2026-02-06 13:39:11,067 - INFO - Saved: output/cleaned/units_cleaned.csv
+2026-02-06 13:39:11,067 - INFO - ============================================================
+2026-02-06 13:39:11,068 - INFO - STAGE 3: DATA MERGING
+2026-02-06 13:39:11,069 - INFO - ============================================================
+2026-02-06 13:39:11,075 - INFO - 
+Base dataset: Weather (25080 records)
+2026-02-06 13:39:11,078 - INFO - 
+Final unified dataset: 25080 rows × 6 columns
+2026-02-06 13:39:11,288 - INFO - Saved: output/unified_dataset.csv
+2026-02-06 13:39:11,289 - INFO - ============================================================
+2026-02-06 13:39:11,290 - INFO - STAGE 4: FEATURE ENGINEERING
+2026-02-06 13:39:11,290 - INFO - ============================================================
+2026-02-06 13:39:11,291 - INFO - 
+Creating V1 Features (Basic)
+2026-02-06 13:39:11,330 - ERROR - 
+PIPELINE FAILED: '<' not supported between instances of 'float' and 'str'
+2026-02-06 13:39:11,331 - ERROR - Check pipeline_execution.log for details
+2026-02-06 13:43:11,153 - INFO - 
+============================================================
+2026-02-06 13:43:11,154 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-06 13:43:11,154 - INFO - ============================================================
+2026-02-06 13:43:11,155 - INFO - ============================================================
+2026-02-06 13:43:11,155 - INFO - STAGE 1: DATA INGESTION
+2026-02-06 13:43:11,155 - INFO - ============================================================
+2026-02-06 13:43:11,156 - INFO - Loading: raw_data/weather.csv
+2026-02-06 13:43:11,334 - INFO -   Missing: 4.96%
+2026-02-06 13:43:11,335 - INFO - Loading: raw_data/station_region.csv
+2026-02-06 13:43:11,354 - INFO -   Missing: 0.00%
+2026-02-06 13:43:11,355 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-06 13:43:11,442 - INFO -   Missing: 5.01%
+2026-02-06 13:43:11,442 - INFO - Loading: raw_data/reference_units.csv
+2026-02-06 13:43:11,454 - INFO -   Missing: 16.67%
+2026-02-06 13:43:11,455 - INFO - ============================================================
+2026-02-06 13:43:11,455 - INFO - STAGE 2: DATA CLEANING
+2026-02-06 13:43:11,456 - INFO - ============================================================
+2026-02-06 13:43:11,457 - INFO - 
+Cleaning: Weather Data
+2026-02-06 13:43:11,625 - INFO -   Removed 0 duplicates
+2026-02-06 13:43:11,732 - INFO - 
+Cleaning: Station Region Data
+2026-02-06 13:43:11,760 - INFO - 
+Cleaning: Activity Logs
+2026-02-06 13:43:11,974 - INFO - 
+Cleaning: Reference Units
+2026-02-06 13:43:12,177 - INFO - Saved: output/cleaned/weather_cleaned.csv
+2026-02-06 13:43:12,182 - INFO - Saved: output/cleaned/stations_cleaned.csv
+2026-02-06 13:43:12,373 - INFO - Saved: output/cleaned/activity_cleaned.csv
+2026-02-06 13:43:12,377 - INFO - Saved: output/cleaned/units_cleaned.csv
+2026-02-06 13:43:12,377 - INFO - ============================================================
+2026-02-06 13:43:12,378 - INFO - STAGE 3: DATA MERGING
+2026-02-06 13:43:12,379 - INFO - ============================================================
+2026-02-06 13:43:12,385 - INFO - 
+Base dataset: Weather (25080 records)
+2026-02-06 13:43:12,387 - INFO - 
+Final unified dataset: 25080 rows × 6 columns
+2026-02-06 13:43:12,555 - INFO - Saved: output/unified_dataset.csv
+2026-02-06 13:43:12,555 - INFO - Starting feature engineering
+2026-02-06 13:43:12,557 - INFO - Creating V1 features
+2026-02-06 13:43:12,593 - INFO - V1 feature creation completed
+2026-02-06 13:43:12,599 - INFO - Creating V2 features
+2026-02-06 13:43:12,601 - INFO - V2 feature creation completed
+2026-02-06 13:43:13,087 - INFO - Saved: output/features/features_v1.csv
+2026-02-06 13:43:13,087 - INFO - Saved: output/features/features_v2.csv
+2026-02-06 13:43:13,088 - ERROR - 
+PIPELINE FAILED: 'FeatureEngineering' object has no attribute 'feature_catalog'
+2026-02-06 13:43:13,088 - ERROR - Check pipeline_execution.log for details
+2026-02-06 13:47:31,370 - INFO - 
+============================================================
+2026-02-06 13:47:31,371 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-06 13:47:31,372 - INFO - ============================================================
+2026-02-06 13:47:31,372 - INFO - ============================================================
+2026-02-06 13:47:31,373 - INFO - STAGE 1: DATA INGESTION
+2026-02-06 13:47:31,373 - INFO - ============================================================
+2026-02-06 13:47:31,373 - INFO - Loading: raw_data/weather.csv
+2026-02-06 13:47:31,562 - INFO -   Missing: 4.96%
+2026-02-06 13:47:31,563 - INFO - Loading: raw_data/station_region.csv
+2026-02-06 13:47:31,582 - INFO -   Missing: 0.00%
+2026-02-06 13:47:31,583 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-06 13:47:31,690 - INFO -   Missing: 5.01%
+2026-02-06 13:47:31,691 - INFO - Loading: raw_data/reference_units.csv
+2026-02-06 13:47:31,707 - INFO -   Missing: 16.67%
+2026-02-06 13:47:31,710 - INFO - ============================================================
+2026-02-06 13:47:31,711 - INFO - STAGE 2: DATA CLEANING
+2026-02-06 13:47:31,712 - INFO - ============================================================
+2026-02-06 13:47:31,712 - INFO - 
+Cleaning: Weather Data
+2026-02-06 13:47:31,909 - INFO -   Removed 0 duplicates
+2026-02-06 13:47:32,024 - INFO - 
+Cleaning: Station Region Data
+2026-02-06 13:47:32,054 - INFO - 
+Cleaning: Activity Logs
+2026-02-06 13:47:32,269 - INFO - 
+Cleaning: Reference Units
+2026-02-06 13:47:32,474 - INFO - Saved: output/cleaned/weather_cleaned.csv
+2026-02-06 13:47:32,478 - INFO - Saved: output/cleaned/stations_cleaned.csv
+2026-02-06 13:47:32,709 - INFO - Saved: output/cleaned/activity_cleaned.csv
+2026-02-06 13:47:32,713 - INFO - Saved: output/cleaned/units_cleaned.csv
+2026-02-06 13:47:32,713 - INFO - ============================================================
+2026-02-06 13:47:32,714 - INFO - STAGE 3: DATA MERGING
+2026-02-06 13:47:32,714 - INFO - ============================================================
+2026-02-06 13:47:32,721 - INFO - 
+Base dataset: Weather (25080 records)
+2026-02-06 13:47:32,724 - INFO - 
+Final unified dataset: 25080 rows × 6 columns
+2026-02-06 13:47:32,908 - INFO - Saved: output/unified_dataset.csv
+2026-02-06 13:47:32,909 - INFO - Starting feature engineering
+2026-02-06 13:47:32,911 - INFO - Creating V1 features
+2026-02-06 13:47:32,952 - INFO - V1 feature creation completed
+2026-02-06 13:47:32,959 - INFO - Creating V2 features
+2026-02-06 13:47:32,961 - INFO - V2 feature creation completed
+2026-02-06 13:47:33,459 - INFO - Saved: output/features/features_v1.csv
+2026-02-06 13:47:33,459 - INFO - Saved: output/features/features_v2.csv
+2026-02-06 13:47:33,463 - ERROR - 
+PIPELINE FAILED: Object of type int64 is not JSON serializable
+2026-02-06 13:47:33,464 - ERROR - Check pipeline_execution.log for details
+2026-02-06 13:53:51,016 - INFO - 
+============================================================
+2026-02-06 13:53:51,018 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-06 13:53:51,018 - INFO - ============================================================
+2026-02-06 13:53:51,019 - INFO - ============================================================
+2026-02-06 13:53:51,020 - INFO - STAGE 1: DATA INGESTION
+2026-02-06 13:53:51,020 - INFO - ============================================================
+2026-02-06 13:53:51,021 - INFO - Loading: raw_data/weather.csv
+2026-02-06 13:53:51,276 - INFO -   Missing: 4.96%
+2026-02-06 13:53:51,278 - INFO - Loading: raw_data/station_region.csv
+2026-02-06 13:53:51,299 - INFO -   Missing: 0.00%
+2026-02-06 13:53:51,300 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-06 13:53:51,406 - INFO -   Missing: 5.01%
+2026-02-06 13:53:51,406 - INFO - Loading: raw_data/reference_units.csv
+2026-02-06 13:53:51,423 - INFO -   Missing: 16.67%
+2026-02-06 13:53:51,423 - INFO - ============================================================
+2026-02-06 13:53:51,424 - INFO - STAGE 2: DATA CLEANING
+2026-02-06 13:53:51,424 - INFO - ============================================================
+2026-02-06 13:53:51,427 - INFO - 
+Cleaning: Weather Data
+2026-02-06 13:53:51,802 - INFO -   Removed 0 duplicates
+2026-02-06 13:53:52,011 - INFO - 
+Cleaning: Station Region Data
+2026-02-06 13:53:52,077 - INFO - 
+Cleaning: Activity Logs
+2026-02-06 13:53:52,382 - INFO - 
+Cleaning: Reference Units
+2026-02-06 13:53:52,758 - INFO - Saved: output/cleaned/weather_cleaned.csv
+2026-02-06 13:53:52,770 - INFO - Saved: output/cleaned/stations_cleaned.csv
+2026-02-06 13:53:53,160 - INFO - Saved: output/cleaned/activity_cleaned.csv
+2026-02-06 13:53:53,167 - INFO - Saved: output/cleaned/units_cleaned.csv
+2026-02-06 13:53:53,167 - INFO - ============================================================
+2026-02-06 13:53:53,168 - INFO - STAGE 3: DATA MERGING
+2026-02-06 13:53:53,168 - INFO - ============================================================
+2026-02-06 13:53:53,176 - INFO - 
+Base dataset: Weather (25080 records)
+2026-02-06 13:53:53,182 - INFO - 
+Final unified dataset: 25080 rows × 6 columns
+2026-02-06 13:53:53,475 - INFO - Saved: output/unified_dataset.csv
+2026-02-06 13:53:53,476 - INFO - Starting feature engineering
+2026-02-06 13:53:53,479 - INFO - Creating V1 features
+2026-02-06 13:53:53,597 - INFO - V1 feature creation completed
+2026-02-06 13:53:53,613 - INFO - Creating V2 features
+2026-02-06 13:53:53,690 - INFO - V2 feature creation completed
+2026-02-06 13:53:54,509 - INFO - Saved: output/features/features_v1.csv
+2026-02-06 13:53:54,511 - INFO - Saved: output/features/features_v2.csv
+2026-02-06 13:53:54,516 - INFO - Saved: output/metadata/pipeline_metadata.json
+2026-02-06 13:53:54,517 - INFO - 
+============================================================
+2026-02-06 13:53:54,517 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-02-06 13:53:54,518 - INFO - ============================================================
+2026-02-06 13:53:54,518 - INFO - V1 Features: (23801, 9)
+2026-02-06 13:53:54,519 - INFO - V2 Features: (23801, 10)
+2026-02-06 13:53:54,520 - INFO - Check outputs in: output/
+2026-02-06 13:54:54,859 - INFO - 
+============================================================
+2026-02-06 13:54:54,860 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-06 13:54:54,861 - INFO - ============================================================
+2026-02-06 13:54:54,862 - INFO - ============================================================
+2026-02-06 13:54:54,862 - INFO - STAGE 1: DATA INGESTION
+2026-02-06 13:54:54,863 - INFO - ============================================================
+2026-02-06 13:54:54,863 - INFO - Loading: raw_data/weather.csv
+2026-02-06 13:54:55,103 - INFO -   Missing: 4.96%
+2026-02-06 13:54:55,104 - INFO - Loading: raw_data/station_region.csv
+2026-02-06 13:54:55,123 - INFO -   Missing: 0.00%
+2026-02-06 13:54:55,124 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-06 13:54:55,234 - INFO -   Missing: 5.01%
+2026-02-06 13:54:55,235 - INFO - Loading: raw_data/reference_units.csv
+2026-02-06 13:54:55,251 - INFO -   Missing: 16.67%
+2026-02-06 13:54:55,252 - INFO - ============================================================
+2026-02-06 13:54:55,252 - INFO - STAGE 2: DATA CLEANING
+2026-02-06 13:54:55,253 - INFO - ============================================================
+2026-02-06 13:54:55,254 - INFO - 
+Cleaning: Weather Data
+2026-02-06 13:54:55,484 - INFO -   Removed 0 duplicates
+2026-02-06 13:54:55,621 - INFO - 
+Cleaning: Station Region Data
+2026-02-06 13:54:55,661 - INFO - 
+Cleaning: Activity Logs
+2026-02-06 13:54:55,873 - INFO - 
+Cleaning: Reference Units
+2026-02-06 13:54:56,095 - INFO - Saved: output/cleaned/weather_cleaned.csv
+2026-02-06 13:54:56,101 - INFO - Saved: output/cleaned/stations_cleaned.csv
+2026-02-06 13:54:56,337 - INFO - Saved: output/cleaned/activity_cleaned.csv
+2026-02-06 13:54:56,341 - INFO - Saved: output/cleaned/units_cleaned.csv
+2026-02-06 13:54:56,341 - INFO - ============================================================
+2026-02-06 13:54:56,342 - INFO - STAGE 3: DATA MERGING
+2026-02-06 13:54:56,342 - INFO - ============================================================
+2026-02-06 13:54:56,349 - INFO - 
+Base dataset: Weather (25080 records)
+2026-02-06 13:54:56,353 - INFO - 
+Final unified dataset: 25080 rows × 6 columns
+2026-02-06 13:54:56,541 - INFO - Saved: output/unified_dataset.csv
+2026-02-06 13:54:56,542 - INFO - Starting feature engineering
+2026-02-06 13:54:56,544 - INFO - Creating V1 features
+2026-02-06 13:54:56,577 - INFO - V1 feature creation completed
+2026-02-06 13:54:56,584 - INFO - Creating V2 features
+2026-02-06 13:54:56,586 - INFO - V2 feature creation completed
+2026-02-06 13:54:57,359 - INFO - Saved: output/features/features_v1.csv
+2026-02-06 13:54:57,361 - INFO - Saved: output/features/features_v2.csv
+2026-02-06 13:54:57,368 - INFO - Saved: output/metadata/pipeline_metadata.json
+2026-02-06 13:54:57,369 - INFO - 
+============================================================
+2026-02-06 13:54:57,370 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-02-06 13:54:57,372 - INFO - ============================================================
+2026-02-06 13:54:57,374 - INFO - V1 Features: (23801, 9)
+2026-02-06 13:54:57,374 - INFO - V2 Features: (23801, 10)
+2026-02-06 13:54:57,375 - INFO - Check outputs in: output/
+2026-02-06 14:22:57,243 - INFO - 
+============================================================
+2026-02-06 14:22:57,244 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-06 14:22:57,245 - INFO - ============================================================
+2026-02-06 14:22:57,245 - INFO - ============================================================
+2026-02-06 14:22:57,246 - INFO - STAGE 1: DATA INGESTION
+2026-02-06 14:22:57,247 - INFO - ============================================================
+2026-02-06 14:22:57,248 - INFO - Loading: raw_data/weather.csv
+2026-02-06 14:22:57,527 - INFO -   Missing: 4.96%
+2026-02-06 14:22:57,528 - INFO - Loading: raw_data/station_region.csv
+2026-02-06 14:22:57,561 - INFO -   Missing: 0.00%
+2026-02-06 14:22:57,561 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-06 14:22:57,803 - INFO -   Missing: 5.01%
+2026-02-06 14:22:57,804 - INFO - Loading: raw_data/reference_units.csv
+2026-02-06 14:22:57,837 - INFO -   Missing: 16.67%
+2026-02-06 14:22:57,837 - INFO - ============================================================
+2026-02-06 14:22:57,838 - INFO - STAGE 2: DATA CLEANING
+2026-02-06 14:22:57,840 - INFO - ============================================================
+2026-02-06 14:22:57,841 - INFO - 
+Cleaning: Weather Data
+2026-02-06 14:22:58,052 - INFO -   Removed 0 duplicates
+2026-02-06 14:22:58,179 - INFO - 
+Cleaning: Station Region Data
+2026-02-06 14:22:58,213 - INFO - 
+Cleaning: Activity Logs
+2026-02-06 14:22:58,497 - INFO - 
+Cleaning: Reference Units
+2026-02-06 14:22:58,798 - INFO - Saved: output/cleaned/weather_cleaned.csv
+2026-02-06 14:22:58,803 - INFO - Saved: output/cleaned/stations_cleaned.csv
+2026-02-06 14:22:59,057 - INFO - Saved: output/cleaned/activity_cleaned.csv
+2026-02-06 14:22:59,062 - INFO - Saved: output/cleaned/units_cleaned.csv
+2026-02-06 14:22:59,062 - INFO - ============================================================
+2026-02-06 14:22:59,064 - INFO - STAGE 3: DATA MERGING
+2026-02-06 14:22:59,065 - INFO - ============================================================
+2026-02-06 14:22:59,074 - INFO - 
+Base dataset: Weather (25080 records)
+2026-02-06 14:22:59,077 - INFO - 
+Final unified dataset: 25080 rows × 6 columns
+2026-02-06 14:22:59,309 - INFO - Saved: output/unified_dataset.csv
+2026-02-06 14:22:59,310 - INFO - Starting feature engineering
+2026-02-06 14:22:59,312 - INFO - Creating V1 features
+2026-02-06 14:22:59,362 - INFO - V1 feature creation completed
+2026-02-06 14:22:59,370 - INFO - Creating V2 features
+2026-02-06 14:22:59,372 - INFO - V2 feature creation completed
+2026-02-06 14:23:00,079 - INFO - Saved: output/features/features_v1.csv
+2026-02-06 14:23:00,089 - INFO - Saved: output/features/features_v2.csv
+2026-02-06 14:23:00,097 - INFO - Saved: output/metadata/pipeline_metadata.json
+2026-02-06 14:23:00,102 - INFO - 
+============================================================
+2026-02-06 14:23:00,109 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-02-06 14:23:00,110 - INFO - ============================================================
+2026-02-06 14:23:00,111 - INFO - V1 Features: (23801, 9)
+2026-02-06 14:23:00,112 - INFO - V2 Features: (23801, 10)
+2026-02-06 14:23:00,117 - INFO - Check outputs in: output/
+2026-02-07 13:35:02,281 - INFO - 
+============================================================
+2026-02-07 13:35:02,282 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-07 13:35:02,282 - INFO - ============================================================
+2026-02-07 13:35:02,284 - INFO - ============================================================
+2026-02-07 13:35:02,284 - INFO - STAGE 1: DATA INGESTION
+2026-02-07 13:35:02,285 - INFO - ============================================================
+2026-02-07 13:35:02,287 - INFO - Loading: raw_data/weather.csv
+2026-02-07 13:35:02,751 - INFO -   Missing: 4.96%
+2026-02-07 13:35:02,752 - INFO - Loading: raw_data/station_region.csv
+2026-02-07 13:35:02,784 - INFO -   Missing: 0.00%
+2026-02-07 13:35:02,784 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-07 13:35:02,949 - INFO -   Missing: 5.01%
+2026-02-07 13:35:02,949 - INFO - Loading: raw_data/reference_units.csv
+2026-02-07 13:35:02,978 - INFO -   Missing: 16.67%
+2026-02-07 13:35:02,979 - INFO - ============================================================
+2026-02-07 13:35:02,997 - INFO - STAGE 2: DATA CLEANING
+2026-02-07 13:35:02,997 - INFO - ============================================================
+2026-02-07 13:35:02,999 - INFO - 
+Cleaning: Weather Data
+2026-02-07 13:35:03,255 - INFO -   Removed 0 duplicates
+2026-02-07 13:35:03,465 - INFO - 
+Cleaning: Station Region Data
+2026-02-07 13:35:03,495 - INFO - 
+Cleaning: Activity Logs
+2026-02-07 13:35:03,823 - INFO - 
+Cleaning: Reference Units
+2026-02-07 13:35:04,111 - INFO - Saved: output/cleaned/weather_cleaned.csv
+2026-02-07 13:35:04,121 - INFO - Saved: output/cleaned/stations_cleaned.csv
+2026-02-07 13:35:04,426 - INFO - Saved: output/cleaned/activity_cleaned.csv
+2026-02-07 13:35:04,430 - INFO - Saved: output/cleaned/units_cleaned.csv
+2026-02-07 13:35:04,430 - INFO - ============================================================
+2026-02-07 13:35:04,431 - INFO - STAGE 3: DATA MERGING
+2026-02-07 13:35:04,431 - INFO - ============================================================
+2026-02-07 13:35:04,438 - INFO - 
+Base dataset: Weather (25080 records)
+2026-02-07 13:35:04,441 - INFO - 
+Final unified dataset: 25080 rows × 6 columns
+2026-02-07 13:35:04,626 - INFO - Saved: output/unified_dataset.csv
+2026-02-07 13:35:04,627 - INFO - Starting feature engineering
+2026-02-07 13:35:04,629 - INFO - Creating V1 features
+2026-02-07 13:35:04,664 - INFO - V1 feature creation completed
+2026-02-07 13:35:04,668 - INFO - Creating V2 features
+2026-02-07 13:35:04,671 - INFO - V2 feature creation completed
+2026-02-07 13:35:05,489 - INFO - Saved: output/features/features_v1.csv
+2026-02-07 13:35:05,491 - INFO - Saved: output/features/features_v2.csv
+2026-02-07 13:35:05,495 - INFO - Saved: output/metadata/pipeline_metadata.json
+2026-02-07 13:35:05,496 - INFO - 
+============================================================
+2026-02-07 13:35:05,497 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-02-07 13:35:05,498 - INFO - ============================================================
+2026-02-07 13:35:05,499 - INFO - V1 Features: (23801, 9)
+2026-02-07 13:35:05,499 - INFO - V2 Features: (23801, 10)
+2026-02-07 13:35:05,500 - INFO - Check outputs in: output/
+2026-02-07 13:55:19,840 - INFO - 
+============================================================
+2026-02-07 13:55:19,842 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-07 13:55:19,843 - INFO - ============================================================
+2026-02-07 13:55:19,844 - INFO - ============================================================
+2026-02-07 13:55:19,845 - INFO - STAGE 1: DATA INGESTION
+2026-02-07 13:55:19,845 - INFO - ============================================================
+2026-02-07 13:55:19,846 - INFO - Loading: raw_data/weather.csv
+2026-02-07 13:55:20,149 - INFO -   Missing: 4.96%
+2026-02-07 13:55:20,150 - INFO - Loading: raw_data/station_region.csv
+2026-02-07 13:55:20,180 - INFO -   Missing: 0.00%
+2026-02-07 13:55:20,183 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-07 13:55:20,287 - INFO -   Missing: 5.01%
+2026-02-07 13:55:20,288 - INFO - Loading: raw_data/reference_units.csv
+2026-02-07 13:55:20,306 - INFO -   Missing: 16.67%
+2026-02-07 13:55:20,306 - INFO - ============================================================
+2026-02-07 13:55:20,307 - INFO - STAGE 2: DATA CLEANING
+2026-02-07 13:55:20,308 - INFO - ============================================================
+2026-02-07 13:55:20,309 - INFO - 
+Cleaning: Weather Data
+2026-02-07 13:55:20,523 - INFO -   Removed 0 duplicates
+2026-02-07 13:55:20,689 - INFO - 
+Cleaning: Station Region Data
+2026-02-07 13:55:20,723 - ERROR - 
+PIPELINE FAILED: 'DataCleaning' object has no attribute 'clean_activity'
+2026-02-07 13:55:20,723 - ERROR - Check pipeline_execution.log for details
+2026-02-07 13:58:09,136 - INFO - 
+============================================================
+2026-02-07 13:58:09,138 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-07 13:58:09,139 - INFO - ============================================================
+2026-02-07 13:58:09,140 - INFO - ============================================================
+2026-02-07 13:58:09,141 - INFO - STAGE 1: DATA INGESTION
+2026-02-07 13:58:09,142 - INFO - ============================================================
+2026-02-07 13:58:09,142 - INFO - Loading: raw_data/weather.csv
+2026-02-07 13:58:09,464 - INFO -   Missing: 4.96%
+2026-02-07 13:58:09,465 - INFO - Loading: raw_data/station_region.csv
+2026-02-07 13:58:09,487 - INFO -   Missing: 0.00%
+2026-02-07 13:58:09,487 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-07 13:58:09,609 - INFO -   Missing: 5.01%
+2026-02-07 13:58:09,610 - INFO - Loading: raw_data/reference_units.csv
+2026-02-07 13:58:09,623 - INFO -   Missing: 16.67%
+2026-02-07 13:58:09,623 - INFO - ============================================================
+2026-02-07 13:58:09,624 - INFO - STAGE 2: DATA CLEANING
+2026-02-07 13:58:09,625 - INFO - ============================================================
+2026-02-07 13:58:09,625 - INFO - 
+Cleaning: Weather Data
+2026-02-07 13:58:09,853 - INFO -   Removed 0 duplicates
+2026-02-07 13:58:10,027 - INFO - 
+Cleaning: Station Region Data
+2026-02-07 13:58:10,079 - ERROR - 
+PIPELINE FAILED: 'irrigationhours'
+2026-02-07 13:58:10,081 - ERROR - Check pipeline_execution.log for details
+2026-02-07 13:58:17,840 - INFO - 
+============================================================
+2026-02-07 13:58:17,841 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-07 13:58:17,842 - INFO - ============================================================
+2026-02-07 13:58:17,842 - INFO - ============================================================
+2026-02-07 13:58:17,843 - INFO - STAGE 1: DATA INGESTION
+2026-02-07 13:58:17,843 - INFO - ============================================================
+2026-02-07 13:58:17,844 - INFO - Loading: raw_data/weather.csv
+2026-02-07 13:58:18,083 - INFO -   Missing: 4.96%
+2026-02-07 13:58:18,084 - INFO - Loading: raw_data/station_region.csv
+2026-02-07 13:58:18,107 - INFO -   Missing: 0.00%
+2026-02-07 13:58:18,109 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-07 13:58:18,219 - INFO -   Missing: 5.01%
+2026-02-07 13:58:18,220 - INFO - Loading: raw_data/reference_units.csv
+2026-02-07 13:58:18,234 - INFO -   Missing: 16.67%
+2026-02-07 13:58:18,234 - INFO - ============================================================
+2026-02-07 13:58:18,235 - INFO - STAGE 2: DATA CLEANING
+2026-02-07 13:58:18,235 - INFO - ============================================================
+2026-02-07 13:58:18,236 - INFO - 
+Cleaning: Weather Data
+2026-02-07 13:58:18,432 - INFO -   Removed 0 duplicates
+2026-02-07 13:58:18,552 - INFO - 
+Cleaning: Station Region Data
+2026-02-07 13:58:18,595 - ERROR - 
+PIPELINE FAILED: 'irrigationhours'
+2026-02-07 13:58:18,595 - ERROR - Check pipeline_execution.log for details
+2026-02-07 13:58:39,143 - INFO - 
+============================================================
+2026-02-07 13:58:39,144 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-07 13:58:39,144 - INFO - ============================================================
+2026-02-07 13:58:39,145 - INFO - ============================================================
+2026-02-07 13:58:39,145 - INFO - STAGE 1: DATA INGESTION
+2026-02-07 13:58:39,146 - INFO - ============================================================
+2026-02-07 13:58:39,147 - INFO - Loading: raw_data/weather.csv
+2026-02-07 13:58:39,353 - INFO -   Missing: 4.96%
+2026-02-07 13:58:39,353 - INFO - Loading: raw_data/station_region.csv
+2026-02-07 13:58:39,369 - INFO -   Missing: 0.00%
+2026-02-07 13:58:39,369 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-07 13:58:39,466 - INFO -   Missing: 5.01%
+2026-02-07 13:58:39,468 - INFO - Loading: raw_data/reference_units.csv
+2026-02-07 13:58:39,481 - INFO -   Missing: 16.67%
+2026-02-07 13:58:39,482 - INFO - ============================================================
+2026-02-07 13:58:39,482 - INFO - STAGE 2: DATA CLEANING
+2026-02-07 13:58:39,483 - INFO - ============================================================
+2026-02-07 13:58:39,484 - INFO - 
+Cleaning: Weather Data
+2026-02-07 13:58:39,670 - INFO -   Removed 0 duplicates
+2026-02-07 13:58:39,786 - INFO - 
+Cleaning: Station Region Data
+2026-02-07 13:58:39,822 - ERROR - 
+PIPELINE FAILED: 'irrigationhours'
+2026-02-07 13:58:39,824 - ERROR - Check pipeline_execution.log for details
+2026-02-07 14:04:40,634 - INFO - 
+============================================================
+2026-02-07 14:04:40,634 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-07 14:04:40,635 - INFO - ============================================================
+2026-02-07 14:04:40,636 - INFO - ============================================================
+2026-02-07 14:04:40,636 - INFO - STAGE 1: DATA INGESTION
+2026-02-07 14:04:40,636 - INFO - ============================================================
+2026-02-07 14:04:40,637 - INFO - Loading: raw_data/weather.csv
+2026-02-07 14:04:40,845 - INFO -   Missing: 4.96%
+2026-02-07 14:04:40,846 - INFO - Loading: raw_data/station_region.csv
+2026-02-07 14:04:40,861 - INFO -   Missing: 0.00%
+2026-02-07 14:04:40,867 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-07 14:04:40,958 - INFO -   Missing: 5.01%
+2026-02-07 14:04:40,959 - INFO - Loading: raw_data/reference_units.csv
+2026-02-07 14:04:40,973 - INFO -   Missing: 16.67%
+2026-02-07 14:04:40,974 - INFO - ============================================================
+2026-02-07 14:04:40,974 - INFO - STAGE 2: DATA CLEANING
+2026-02-07 14:04:40,975 - INFO - ============================================================
+2026-02-07 14:04:40,975 - INFO - 
+Cleaning: Weather Data
+2026-02-07 14:04:41,153 - INFO -   Removed 0 duplicates
+2026-02-07 14:04:41,255 - INFO - 
+Cleaning: Station Region Data
+2026-02-07 14:04:41,291 - ERROR - 
+PIPELINE FAILED: 'irrigationHours'
+2026-02-07 14:04:41,291 - ERROR - Check pipeline_execution.log for details
+2026-02-07 14:08:23,649 - INFO - 
+============================================================
+2026-02-07 14:08:23,649 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-07 14:08:23,650 - INFO - ============================================================
+2026-02-07 14:08:23,650 - INFO - ============================================================
+2026-02-07 14:08:23,651 - INFO - STAGE 1: DATA INGESTION
+2026-02-07 14:08:23,651 - INFO - ============================================================
+2026-02-07 14:08:23,652 - INFO - Loading: raw_data/weather.csv
+2026-02-07 14:08:23,860 - INFO -   Missing: 4.96%
+2026-02-07 14:08:23,861 - INFO - Loading: raw_data/station_region.csv
+2026-02-07 14:08:23,880 - INFO -   Missing: 0.00%
+2026-02-07 14:08:23,881 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-07 14:08:23,991 - INFO -   Missing: 5.01%
+2026-02-07 14:08:23,993 - INFO - Loading: raw_data/reference_units.csv
+2026-02-07 14:08:24,007 - INFO -   Missing: 16.67%
+2026-02-07 14:08:24,008 - INFO - ============================================================
+2026-02-07 14:08:24,009 - INFO - STAGE 2: DATA CLEANING
+2026-02-07 14:08:24,010 - INFO - ============================================================
+2026-02-07 14:08:24,011 - INFO - 
+Cleaning: Weather Data
+2026-02-07 14:08:24,195 - INFO -   Removed 0 duplicates
+2026-02-07 14:08:24,317 - INFO - 
+Cleaning: Station Region Data
+2026-02-07 14:08:24,445 - INFO - 
+Cleaning: Reference Units
+2026-02-07 14:08:24,717 - INFO - Saved: output/cleaned/weather_cleaned.csv
+2026-02-07 14:08:24,724 - INFO - Saved: output/cleaned/stations_cleaned.csv
+2026-02-07 14:08:24,844 - INFO - Saved: output/cleaned/activity_cleaned.csv
+2026-02-07 14:08:24,849 - INFO - Saved: output/cleaned/units_cleaned.csv
+2026-02-07 14:08:24,849 - INFO - ============================================================
+2026-02-07 14:08:24,850 - INFO - STAGE 3: DATA MERGING
+2026-02-07 14:08:24,850 - INFO - ============================================================
+2026-02-07 14:08:24,860 - INFO - 
+Base dataset: Weather (25080 records)
+2026-02-07 14:08:24,865 - INFO - 
+Final unified dataset: 25080 rows × 6 columns
+2026-02-07 14:08:25,137 - INFO - Saved: output/unified_dataset.csv
+2026-02-07 14:08:25,138 - INFO - Starting feature engineering
+2026-02-07 14:08:25,141 - INFO - Creating V1 features
+2026-02-07 14:08:25,190 - INFO - V1 feature creation completed
+2026-02-07 14:08:25,195 - INFO - Creating V2 features
+2026-02-07 14:08:25,197 - INFO - V2 feature creation completed
+2026-02-07 14:08:25,899 - INFO - Saved: output/features/features_v1.csv
+2026-02-07 14:08:25,952 - INFO - Saved: output/features/features_v2.csv
+2026-02-07 14:08:26,046 - INFO - Saved: output/metadata/pipeline_metadata.json
+2026-02-07 14:08:26,112 - INFO - 
+============================================================
+2026-02-07 14:08:26,159 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-02-07 14:08:26,182 - INFO - ============================================================
+2026-02-07 14:08:26,184 - INFO - V1 Features: (23801, 9)
+2026-02-07 14:08:26,185 - INFO - V2 Features: (23801, 10)
+2026-02-07 14:08:26,190 - INFO - Check outputs in: output/
+2026-02-07 14:28:29,075 - INFO - 
+============================================================
+2026-02-07 14:28:29,077 - INFO - ENTERPRISE AI FOUNDATION PIPELINE
+2026-02-07 14:28:29,078 - INFO - ============================================================
+2026-02-07 14:28:29,079 - INFO - ============================================================
+2026-02-07 14:28:29,080 - INFO - STAGE 1: DATA INGESTION
+2026-02-07 14:28:29,081 - INFO - ============================================================
+2026-02-07 14:28:29,082 - INFO - Loading: raw_data/weather.csv
+2026-02-07 14:28:29,372 - INFO -   Missing: 4.96%
+2026-02-07 14:28:29,372 - INFO - Loading: raw_data/station_region.csv
+2026-02-07 14:28:29,393 - INFO -   Missing: 0.00%
+2026-02-07 14:28:29,394 - INFO - Loading: raw_data/activity_logs.csv
+2026-02-07 14:28:29,522 - INFO -   Missing: 5.01%
+2026-02-07 14:28:29,522 - INFO - Loading: raw_data/reference_units.csv
+2026-02-07 14:28:29,539 - INFO -   Missing: 16.67%
+2026-02-07 14:28:29,540 - INFO - ============================================================
+2026-02-07 14:28:29,541 - INFO - STAGE 2: DATA CLEANING
+2026-02-07 14:28:29,543 - INFO - ============================================================
+2026-02-07 14:28:29,551 - INFO - 
+Cleaning: Weather Data
+2026-02-07 14:28:29,836 - INFO -   Removed 0 duplicates
+2026-02-07 14:28:29,983 - INFO - 
+Cleaning: Station Region Data
+2026-02-07 14:28:30,148 - INFO - 
+Cleaning: Reference Units
+2026-02-07 14:28:30,400 - INFO - Saved: output/cleaned/weather_cleaned.csv
+2026-02-07 14:28:30,405 - INFO - Saved: output/cleaned/stations_cleaned.csv
+2026-02-07 14:28:30,536 - INFO - Saved: output/cleaned/activity_cleaned.csv
+2026-02-07 14:28:30,541 - INFO - Saved: output/cleaned/units_cleaned.csv
+2026-02-07 14:28:30,543 - INFO - ============================================================
+2026-02-07 14:28:30,544 - INFO - STAGE 3: DATA MERGING
+2026-02-07 14:28:30,545 - INFO - ============================================================
+2026-02-07 14:28:30,557 - INFO - 
+Base dataset: Weather (25080 records)
+2026-02-07 14:28:30,562 - INFO - 
+Final unified dataset: 25080 rows × 6 columns
+2026-02-07 14:28:30,832 - INFO - Saved: output/unified_dataset.csv
+2026-02-07 14:28:30,832 - INFO - Starting feature engineering
+2026-02-07 14:28:30,835 - INFO - Creating V1 features
+2026-02-07 14:28:30,884 - INFO - V1 feature creation completed
+2026-02-07 14:28:30,891 - INFO - Creating V2 features
+2026-02-07 14:28:30,893 - INFO - V2 feature creation completed
+2026-02-07 14:28:31,773 - INFO - Saved: output/features/features_v1.csv
+2026-02-07 14:28:31,821 - INFO - Saved: output/features/features_v2.csv
+2026-02-07 14:28:31,867 - INFO - Saved: output/metadata/pipeline_metadata.json
+2026-02-07 14:28:31,870 - INFO - 
+============================================================
+2026-02-07 14:28:31,872 - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2026-02-07 14:28:31,875 - INFO - ============================================================
+2026-02-07 14:28:31,876 - INFO - V1 Features: (23801, 9)
+2026-02-07 14:28:31,885 - INFO - V2 Features: (23801, 10)
+2026-02-07 14:28:31,886 - INFO - Check outputs in: output/
